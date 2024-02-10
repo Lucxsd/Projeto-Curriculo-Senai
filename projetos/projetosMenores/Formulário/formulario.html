@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formularioStyle.css">
+</head>
+<body>
+    
+    <h1>Formulário de Contato</h1>
+
+    <form action="cadastro.php" method="post">
+        <label for="idnome">Nome:</label>
+        <input type="text" name="nome" id="idnome" placeholder="Digite seu nome!">
+
+        <label for="idsobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="idsobrenome" placeholder="Digite seu Sobrenome!">
+
+        <label for="idemail">E-mail:</label>
+        <input type="email" name="email" id="idemail" placeholder="Digite seu E-mail!">
+
+        <label for="identrega">Agende a data de entrega:</label>
+        <input type="date" name="entrega" id="identrega">
+
+        <label for="idcomprovante">Comprovante de pagamento:</label>
+        <input type="file" name="comprovante" id="idcomprovante">
+
+        <input type="submit" name="enviar" value="Concluir Cadastro">
+    </form>
+
+    <h1>Formulários em HTML</h1>
+
+    <p>
+        O famoso "<code>form</code>" é uma ferramenta poderosa para interagir com usuários, contudo, por razões técnicas e históricas, nem sempre é obvio utiliza-lo em seu pleno potencial. Normalmente, eles funcionam enviando os dados para um servidor, porem também podem ser utilizados para alguma função na própria página.
+    </p>
+
+    <p>
+        Formulário HTML é utilizado para o preenchimento de dados (captura de informaçôes pelo usuário), e para tal, utilizamos de widgets: são campos de textos caixas de seleção, botões, radio buttons e checkboxes do próprio HTML. Dessa forma, o usuário pode interagir com a página ao executar ações através desses formulários. 
+    </p>
+
+    <p>
+        Esse recurso é bastante utilizado para:
+        <ul>
+            <li>Formulário de contatos;</li>
+            <li>Captura de Leads</li>
+            <li>Criação de sistemas (modal de login).</li>
+        </ul>
+    </p>
+
+    <h2>A tag: &lt;input&gt;</h2>
+
+    <p>
+        A tag: <strong>&lt;input&gt;</strong>; é uma das utilizadas dentro de um formulario HTML e considerada a principal. Esta tag representa os campos de entrada de dados de um formulário. Existem diversos tipos, principalmentem após a atualização do HTML, para a versão <strong>HTML5</strong>, que trouxe novos tipos de &lt;input&gt;.
+    </p>
+
+    <p>
+        O atributo mais importante da tag <strong>&lt;input&gt;</strong> é o <strong>type</strong> é um pré-requisito para utilizar a tage <strong>name</strong>, que define um nome para o campo de entrada, eo atributo <strong>value</strong>, define um valor inicial também para o campo de entrada
+    </p>
+
+    <p>
+        Outro atributo que também merece destaque é o <strong>placeholder</strong>, pois ele permite digitarmos uma "descrição" que será visualizada enquanto o campo de entrada não possuir nenhum valor.
+    </p>
+
+    <p>
+        Dessa forma vejamos um exemplo de formulário abaixo:
+        <code>
+            <pre>
+                &lt;form method="get" action"envio_dados.php"&gt;
+                    &lt;input type="text" name="nome" placeholder="digite seu nome aqui"&gt;
+                    &lt;input type="e-mail" name="email" placeholder="digite seu e-mail aqui"&gt;
+                    &lt;input type="submit" name="enviar" value="enviar"&gt;
+                &lt;form&gt;
+            </pre>
+        </code>
+    </p>
+
+    <p>
+        Portanto, vejamos abaixo os possíveis valores do atributo <strong>type</strong> da tag &lt;input&gt;.
+    </p>
+
+    <table>
+
+        <tr>
+            <th><strong>Type</strong></th>
+            <th><strong>Descrição</strong></th>
+        </tr>
+        <tr>
+            <td><strong>button</strong></td>
+            <td>Um botão sem comportamento padrão.</td>
+        <strong></tr></strong>
+        <tr>
+            <td><strong>checkbox</strong></td>
+            <td>Uma caixa de marcação.</td>
+        </tr>
+        <tr>
+            <td><strong>color</strong></td>
+            <td>Um controle para especificar cores.</td>
+        </tr>
+        <tr>
+            <td><strong>date</strong></td>
+            <td>Um controle para inserir uma data.</td>
+        </tr>
+        <tr>
+            <td><strong>datetime</strong></td>
+            <td>Um controle para inserir data e horário.</td>
+        </tr>
+        <tr>
+            <td><strong>datetime-local</strong></td>
+            <td>Um controle para inserir data e horário, sem fuso horário.</td>
+        </tr>
+        <tr>
+            <td><strong>email</strong></td>
+            <td>Um campo para editar um endereço de e-mail. O valor do campo é validado para estar vazio ou ter um único endereço de e-mail válido antes de ser enviado.</td>
+        </tr>
+        <tr>
+            <td><strong>file</strong></td>
+            <td>Um controle que permite ao usuário selecionar um arquivo.</td>
+        </tr>
+        <tr>
+            <td><strong>hidden</strong></td>
+            <td>Um controle que não é exibido mas cujo valor é enviado ao servidor.</td>
+        </tr>
+        <tr>
+            <td><strong>image</strong></td>
+            <td>Um botão gráfico para enviar o formulário.</td>
+        </tr>
+        <tr>
+            <td><strong>month</strong></td>
+            <td>Um controle para inserir mês e ano, sem fuso horário.</td>
+        </tr>
+        <tr>
+            <td><strong>number</strong></td>
+            <td>Um controle para inserir um número de ponto flutuante.</td>
+        </tr>
+        <tr>
+            <td><strong>password</strong></td>
+            <td>Um campo de texto com uma só linha cujo valor é obscurecido.</td>
+        </tr>
+        <tr>
+            <td><strong>radio</strong></td>
+            <td>Um botão de escolha. Você deve usar o atributo value para definir o valor a ser enviado por este item.</td>
+        </tr>
+        <tr>
+            <td><strong>range</strong></td>
+            <td>Um controle para inserir um número cujo valor exato não é importante.</td>
+        </tr>
+        <tr>
+            <td><strong>reset</strong></td>
+            <td>Um botão que faz o conteúdo do formulário voltar a ter seus valores padrão.</td>
+        </tr>
+        <tr>
+            <td><strong>search</strong></td>
+            <td>Um campo de texto com uma só linha para digitar termos de busca; quebras de linha são automaticamente removidas do valor entrado.</td>
+        </tr>
+        <tr>
+            <td><strong>submit</strong></td>
+            <td>Um botão que envia o formulário.</td>
+        </tr>
+        <tr>
+            <td><strong>tel</strong></td>
+            <td>Um controle para inserir um número de telefone; quebras de linha são automaticamente removidas do valor entrado, mas nenhuma outra sintaxe é imposta.</td>
+        </tr>
+        <tr>
+            <td><strong>text</strong></td>
+            <td>Um campo de texto com uma só linha para digitar termos de busca; quebras de linha são automaticamente removidas do valor entrado.</td>
+        </tr>
+        <tr>
+            <td><strong>time</strong></td>
+            <td>Um controle para inserir um horário sem fuso horário.</td>
+        </tr>
+        <tr>
+        <td><strong>url</strong></td>
+        <td>Um campo para editar uma URL. O valor inserido é validado para ser vazio ou uma URL absoluta válida antes de ser enviado.</td>
+        </tr>
+    </table>
+
+</body>
+</html>

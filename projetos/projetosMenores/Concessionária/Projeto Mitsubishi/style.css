@@ -1,0 +1,258 @@
+
+.centro{
+    background: #ECECEC;
+    position: absolute;
+    width: 1469px;
+    height: 800px;
+    top: 130px;
+    left: 360px;
+    
+}
+
+.card1{
+    background: #FFF;
+    width: 209px;
+    height: 292px;
+    top: 80px;
+    left: 350px;
+    border: 1px solid #FFF;
+    position: absolute;
+}
+
+.card2{
+    width: 209px;
+    height: 292px;
+    top: 80px;
+    left: 600px;
+    border: 1px solid #FFF;
+    position: absolute;
+    background: #FFF;
+}
+
+.card3{
+    width: 209px;
+    height: 292px;
+    position: absolute;
+    top: 80px;
+    left: 850px;
+    border: 1px solid #FFF;
+    background: #FFF;
+}
+
+.card4{
+    width: 209px;
+    height: 292px;
+    position: absolute;
+    top: 80px;
+    left: 1100px;
+    border: 1px solid #FFF;
+    background: #FFF;
+}
+
+.card5{
+    width: 209px;
+    height: 292px;
+    top: 400px;
+    left: 350px;
+    border: 1px solid #FFF;
+    position: absolute;
+    background: #FFF;
+}
+
+.card6{
+    width: 209px;
+    height: 292px;
+    top: 400px;
+    left: 600px;
+    position: absolute;
+    background: #FFF;
+    border: 1px solid #FFF;
+}
+
+.card7{
+    width: 209px;
+    height: 292px;
+    top: 400px;
+    left: 850px;
+    position: absolute;
+    background: #FFF;
+    border: 1px solid #FFF;
+}
+
+.card8{
+    width: 209px;
+    height: 292px;
+    top: 400px;
+    left: 1100px;
+    position: absolute;
+    background: #FFF;
+    border: 1px solid #FFF;
+}
+
+.divisoria-esquerda{
+    width: 2px;
+    height: 1011px;
+    background: rgba(0, 0, 0, 0.25);
+    top: 65px;
+    left: 286px;
+    position: absolute;
+}
+
+.divisoria-encima{
+    width: 1920px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.35);
+    top: 65px;
+    position: absolute;
+}
+
+.separacaologin{
+    width: 1px;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.25);
+    left: 1594px;
+    top: 3px;
+    position: absolute;
+}
+
+.nome-esportivo{
+    width: 292px;
+    height: 33px;
+    top: 83px;
+    left: 360px;
+    border: 1px solid #000;
+    position: absolute;
+    font-size: x-large;
+    text-align: center;
+    background: #FFF;
+    
+    
+}
+
+#pesquisa{
+    width: 338px;
+    height: 39px;
+    top: 83px;
+    left: 60%;
+    display: flex;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.icone-user{
+    width: 43px;
+    height: 46px;
+    top: 11px;
+    left: 1756px;
+    position: absolute;
+}
+
+.icone-mit{
+    width: 41px;
+    height: 35px;
+    top: 16px;
+    left: 22px;
+    position: absolute;
+}
+
+.search2{
+    width: 201px;
+    height: 34px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #FFFDFD;
+    position: absolute;
+    top: 204px;
+    left: 22px;
+}
+
+.modelos{
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.188px;
+    width: 74px;
+    height: 32px;
+    top: 161px;
+    left: 21px;
+    position: absolute;
+}
+
+.info{
+    width: 42px;
+    height: 23px;
+    top: 1000px;
+    left: 30px;
+    position:absolute;
+}
+
+
+.icon-mail{
+    width: 42px;
+    height: 23px;
+    top: 900px;
+    left: 30px;
+    position: absolute;
+}
+
+.icon-phone{
+    width: 42px;
+    height: 23px;
+    top: 950px;
+    left: 30px;
+    position: absolute;
+
+
+}
+
+.info-responsivo{
+    width: 87px;
+    height: 20px;
+    top: 1005px;
+    left: 60px;
+    position: absolute;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.email-responsivo{
+    width: 53px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    top: 904px;
+    left: 60px;
+    position: absolute;
+}
+
+.phone-responsivo{
+    width: 126px;
+    height: 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    top: 950px;
+    left: 60px;
+}
+
+.mit-responsivo{
+    width: 115px;
+    height: 33px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
